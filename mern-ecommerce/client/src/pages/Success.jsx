@@ -1,0 +1,2 @@
+import { Link } from "react-router-dom";
+export default function Success() { return <main className="empty"><div className="success-mark">✓</div><p className="eyebrow">PAYMENT RECEIVED</p><h1>Thank you for your order.</h1><p className="muted">Your payment was submitted successfully. Your order will appear in your account once Stripe confirms the payment.</p><Link className="primary" to="/orders">View orders</Link></main>; }
