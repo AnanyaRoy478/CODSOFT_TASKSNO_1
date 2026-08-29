@@ -12,7 +12,7 @@ import { stripeWebhook } from "./controllers/paymentController.js";
 
 const app = express();
 
-app.use(cors({ origin: process.env.CLIENT_URL || "http://localhost:5173" }));
+app.use(cors({ origin: process.env.CLIENT_URL || "https://e-commerce-codsoft.netlify.app/" }));
 app.post("/api/payments/webhook", express.raw({ type: "application/json" }), stripeWebhook);
 app.use(express.json());
 app.use(morgan("dev"));
