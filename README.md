@@ -15,3 +15,5 @@ A full-stack e-commerce application built with React, Vite, Node.js, Express, Mo
 - Admin product CRUD and order-status management
 - Responsive UI
 - Seed script with demo products
+
+- Visit here https://e-commerce-codsoft.netlify.app/
