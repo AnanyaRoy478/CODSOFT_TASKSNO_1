@@ -1,4 +1,4 @@
-# MERN Shop — Complete Runnable E-commerce Starter
+# MERN Shop —
 
 A full-stack e-commerce application built with React, Vite, Node.js, Express, MongoDB/Mongoose, JWT authentication, and Stripe Checkout.
 
